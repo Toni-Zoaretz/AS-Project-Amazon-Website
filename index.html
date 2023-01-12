@@ -4,11 +4,57 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/ca5395b5d3.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="style.css" />
-
     <title>Document</title>
   </head>
   <body>
-    <h1>test1 TEST22</h1>
+    <header>
+      <nav class="nav-left">
+        <div class="box logo">logo</div>
+        <div class="box israel">
+          <!-- <div class="delivery-info"> -->
+          <span class="info-top">Delivery to</span><br />
+          <!-- <img
+            src="/Assets/img/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png"
+            class="delivery"
+          /> -->
+          <span class="info-bottom delivery">Israel</span>
+
+          <!-- </div> -->
+        </div>
+        <div class="box search">
+          <div class="box search-in">
+            <select name="all" id="all">
+              <option value="All">All</option>
+            </select>
+            <textarea name="message" id="message"></textarea>
+            <button type="submit" class="btn-search">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>
+        </div>
+      </nav>
+      <nav class="nav-right">
+        <div class="box langu">
+          <span><img src="/Assets/img/united-states.png" /></span>
+          <span>EN</span>
+          <span><i class="fa-solid fa-caret-down"></i></span>
+        </div>
+        <div class="box account">
+          <span>hello. sign in</span
+          ><span>Account & Lists <i class="fa-solid fa-caret-down"></i></span>
+        </div>
+        <div class="box orders"><span>Returns</span><span> & Orders</span></div>
+        <div class="box cart">
+          <span><i>❄</i></span>
+          <span>1</span>
+          <span>Cart</span>
+        </div>
+      </nav>
+    </header>
   </body>
 </html>
