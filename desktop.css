@@ -86,6 +86,10 @@ body {
 }
 /*--------------------LOGO----------------------------*/
 
+.header-3-mobile {
+  display: none;
+}
+
 .logo {
   background: url("Assets/img/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png")
     no-repeat -10px -51px;
@@ -93,6 +97,9 @@ body {
   height: 29px;
 }
 
+.hamburger-logo {
+  display: none;
+}
 /********DELIVERY $ ICON ***********/
 .delivery {
   background: url("/Assets/img/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png")
@@ -114,7 +121,7 @@ body {
 }
 
 /******NAVBAR-LEFT************/
-.nav-left {
+.nav-left-1 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -123,25 +130,20 @@ body {
 
 /******NAVBAR-RIGHT************/
 
-.nav-right {
+.nav-right-1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 1rem;
 }
 
 /******NAVBAR-HEADER************/
 
-header {
+.header-1,
+.header-2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.cart {
-  background: url("/Assets/img/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png")
-    no-repeat -10px -340px;
-  width: 38px;
-  height: 26px;
 }
 
 /*******SEARCH-SECTION***********/
@@ -159,9 +161,97 @@ header {
   align-items: center;
 }
 
+.search {
+  /* width: 100%; */
+}
+
 #message {
   height: 4rem;
   width: 115rem;
 }
 
-/*********Delivery icon & text**********/
+.info-large-mobile {
+  display: none;
+}
+/*********Navbar-right**********/
+
+.langu {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 0.2rem;
+}
+
+.flag-photo {
+  width: 2rem;
+}
+
+.info-langu {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.info-small {
+  font-size: 1rem;
+}
+
+.info-large {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+/**************CART-TEXT-ICON**********/
+
+.cart-icon {
+  background: url("/Assets/img/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png")
+    no-repeat -10px -340px;
+  width: 38px;
+  height: 26px;
+  position: relative;
+}
+
+.item-number {
+  font-size: 1.9rem;
+  position: absolute;
+  right: 5rem;
+  top: 2.3rem;
+  font-weight: 600;
+}
+
+.info-cart-bottom {
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding-top: 1rem;
+}
+
+.cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/******Header-2****/
+
+.nav-left-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  font-size: 1.2rem;
+}
+
+/******NAVBAR-RIGHT************/
+
+.nav-right-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.nav-left-2 span {
+  font-size: 1.4rem;
+  font-weight: 600;
+}

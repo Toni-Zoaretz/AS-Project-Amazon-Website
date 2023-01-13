@@ -8,23 +8,19 @@
       src="https://kit.fontawesome.com/ca5395b5d3.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="desktop.css" />
+    <link rel="stylesheet" href="mobile.css" />
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <nav class="nav-left">
-        <div class="box logo">logo</div>
+    <header class="header-1">
+      <nav class="nav-left-1">
+        <div class="box hamburger-logo"><i class="fa-solid fa-bars"></i></div>
+        <div class="box logo"></div>
         <div class="box israel">
-          <!-- <div class="delivery-info"> -->
-          <span class="info-top">Delivery to</span><br />
-          <!-- <img
-            src="/Assets/img/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png"
-            class="delivery"
-          /> -->
+          <span class="info-top">Delivery to</span>
+          <br />
           <span class="info-bottom delivery">Israel</span>
-
-          <!-- </div> -->
         </div>
         <div class="box search">
           <div class="box search-in">
@@ -38,23 +34,95 @@
           </div>
         </div>
       </nav>
-      <nav class="nav-right">
+      <nav class="nav-right-1">
         <div class="box langu">
-          <span><img src="/Assets/img/united-states.png" /></span>
-          <span>EN</span>
+          <img src="/Assets/img/united-states.png" class="flag-photo" />
+          <span class="info-langu">EN</span>
           <span><i class="fa-solid fa-caret-down"></i></span>
         </div>
         <div class="box account">
-          <span>hello. sign in</span
-          ><span>Account & Lists <i class="fa-solid fa-caret-down"></i></span>
+          <span class="info-small">Hello,sign in</span>
+
+          <br />
+          <span class="info-large"
+            >Account & Lists <i class="fa-solid fa-caret-down"></i
+          ></span>
+          <span class="info-large-mobile"
+            >Sign in <i class="fa-solid fa-chevron-right"></i
+            ><i class="fa-regular fa-user"></i
+          ></span>
         </div>
-        <div class="box orders"><span>Returns</span><span> & Orders</span></div>
+        <div class="box orders">
+          <span class="info-small">Returns</span>
+          <br />
+          <span class="info-large"> & Orders</span>
+        </div>
         <div class="box cart">
-          <span><i>❄</i></span>
-          <span>1</span>
-          <span>Cart</span>
+          <span class="item-number">1</span>
+          <div class="cart-icon"></div>
+          <span class="info-cart-bottom">Cart</span>
         </div>
       </nav>
+    </header>
+    <header class="header-2 box">
+      <nav class="nav-left-2">
+        <div class="box">
+          <span><i class="fa-solid fa-bars"></i> All</span>
+        </div>
+        <div class="box">
+          <span>Today`s Deals</span>
+        </div>
+        <div class="box">
+          <span>Customer Service</span>
+        </div>
+        <div class="box">
+          <span>Register</span>
+        </div>
+        <div class="box">
+          <span>Gift Cards</span>
+        </div>
+        <div class="box">
+          <span>Sell</span>
+        </div>
+      </nav>
+      <nav class="nav-right-2">
+        <div class="box">
+          <span>Shop great deals now</span>
+        </div>
+      </nav>
+    </header>
+    <!-- 
+    /****************mobile*****************/ -->
+    <header class="header-3-mobile">
+      <div class="contanier">
+        <div class="logos">
+          <div class="box-1"><i class="fa-solid fa-bars"></i></div>
+          <div class="box-1 logo"></div>
+        </div>
+        <div class="logos-2">
+          <div class="box-1">
+            <!-- <span>Sign in</span> -->
+            <span class="sign-in"
+              >Sign in<i class="fa-solid fa-chevron-right"></i
+              ><i class="fa-regular fa-user"></i
+            ></span>
+          </div>
+          <div class="box-1">
+            <span class="item-to-cart">1</span>
+            <span class="cart-icon-mobile"></span>
+          </div>
+        </div>
+      </div>
+      <div class="box-1 serach-box">
+        <textarea name="message-1" id="message-1"></textarea>
+        <button type="submit" class="btn-search-1">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+      <div class="box-1 delivery-israel">
+        <span class="location-icon"></span>
+        <span class="dlivery-details-mobile">Delivery to Israel</span>
+      </div>
     </header>
   </body>
 </html>

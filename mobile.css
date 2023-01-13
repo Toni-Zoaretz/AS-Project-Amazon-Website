@@ -1,0 +1,219 @@
+/* @media (max-width: 500px) {
+  .nav-left-1 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .header-1 {
+    flex: none;
+  }
+
+  .nav-right-1 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #message {
+    height: 4rem;
+    width: 30rem;
+    position: relative;
+  }
+
+  .box-order {
+    display: none;
+  }
+
+  .account {
+    position: absolute;
+    left: 23rem;
+    top: 0rem;
+    display: flex;
+  }
+
+  .info-small {
+    display: none;
+  }
+
+  .info-large-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+  .info-large {
+    display: none;
+  }
+
+  .fa-chevron-right {
+    font-size: 0.8rem;
+  }
+
+  .fa-user {
+    font-size: 2.5rem;
+  }
+
+  .logo {
+    position: absolute;
+    left: 4rem;
+    top: 0rem;
+  }
+
+  .cart {
+    position: absolute;
+    left: 31rem;
+    top: 0rem;
+    /* padding: 0.5rem; */
+/* }
+
+  .item-number {
+    position: absolute;
+    left: 1.5rem;
+    top: 0rem;
+  } */
+/* 
+  #all {
+    display: none;
+  }
+
+  .info-cart-bottom {
+    display: none;
+  }
+
+  .langu {
+    display: none;
+  }
+
+  .hamburger-logo {
+    display: flex;
+    font-size: 2.5rem;
+  }
+
+  .header-2 {
+    display: none;
+  }
+  .nav-left-2 {
+    display: none;
+  }
+  .nav-right-2 {
+    display: none;
+  }
+} */
+
+@media (max-width: 500px) {
+  .header-1 {
+    display: none;
+  }
+
+  .header-2 {
+    display: none;
+  }
+  .header-3-mobile {
+    display: flex;
+
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .box-1 {
+    border: 1px solid black;
+  }
+  .serach-box {
+    width: 100%;
+    display: flex;
+  }
+
+  #message-1 {
+    width: 100%;
+  }
+
+  .delivery-israel {
+    height: 5vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+
+  .dlivery-details-mobile {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+
+  .btn-search-1 {
+    padding: 1rem;
+  }
+
+  .fa-solid {
+    font-size: 2rem;
+  }
+
+  .cart-icon-mobile {
+    background: url("/Assets/img/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png")
+      no-repeat -10px -340px;
+    width: 38px;
+    height: 19px;
+    padding-bottom: 2rem;
+    padding-left: 4rem;
+    position: relative;
+    bottom: 0.8rem;
+  }
+
+  .item-to-cart {
+    font-size: 2rem;
+    position: relative;
+    left: 2.5rem;
+    bottom: 0.5rem;
+  }
+
+  .logos {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 1rem;
+  }
+
+  .fa-bars {
+    font-size: 2rem;
+    color: white;
+  }
+
+  .logos-2 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 1rem;
+    position: relative;
+  }
+
+  .sign-in {
+    font-size: 1.2rem;
+    font-weight: 800;
+  }
+
+  .fa-chevron-right {
+    font-size: 1rem;
+  }
+
+  .fa-user {
+    font-size: 2rem;
+  }
+
+  .contanier {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .location-icon {
+    background: url("/Assets/img/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png")
+      no-repeat -71px -306px;
+    width: 17px;
+    height: 20px;
+    padding-bottom: 2rem;
+    padding-left: 2.1rem;
+  }
+}
