@@ -81,9 +81,17 @@ body {
 }
 
 .box {
-  border: 1px solid black;
   margin: 1rem;
+  border: 1px solid white;
+  padding-top: 1rem;
+  padding-left: 1rem;
 }
+
+.box-2 {
+  padding: 1rem;
+  border: 1px solid white;
+}
+
 /*--------------------LOGO----------------------------*/
 
 .header-3-mobile {
@@ -139,36 +147,44 @@ body {
 
 /******NAVBAR-HEADER************/
 
-.header-1,
+.header-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #131921;
+  color: white;
+}
+
 .header-2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: rgb(35, 47, 62);
+  color: white;
+  margin: 0rem;
 }
 
 /*******SEARCH-SECTION***********/
-#all {
+/* #all {
   padding: 1rem;
 }
 
 .btn-search {
   padding: 1rem;
+  font-size: 1.5rem;
 }
 
+#message {
+  width: 115rem;
+  background-color: white;
+  height: 4.1vh;
+} */
+/* 
 .search-in {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.search {
-  /* width: 100%; */
-}
-
-#message {
-  height: 4rem;
-  width: 115rem;
-}
+  /* border-color: blue; */
 
 .info-large-mobile {
   display: none;
@@ -180,6 +196,7 @@ body {
   justify-content: center;
   align-items: flex-end;
   gap: 0.2rem;
+  padding: 1.6rem;
 }
 
 .flag-photo {
@@ -221,13 +238,14 @@ body {
 .info-cart-bottom {
   font-size: 1.4rem;
   font-weight: 600;
-  padding-top: 1rem;
+  /* padding-top: 1rem; */
 }
 
 .cart {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 1.3rem;
 }
 
 /******Header-2****/
