@@ -80,16 +80,26 @@ body {
   background-color: rgba(126, 129, 129, 0.229);
 }
 
-.box {
-  margin: 1rem;
+.box-4 {
+  padding: 0.5rem;
+  border: 1px solid rgba(255, 255, 255, 0);
+}
+
+.box-4:hover {
   border: 1px solid white;
-  padding-top: 1rem;
-  padding-left: 1rem;
+  cursor: pointer;
+  border-radius: 2px;
 }
 
 .box-2 {
   padding: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0);
+}
+
+.box-2:hover {
   border: 1px solid white;
+  cursor: pointer;
+  border-radius: 2px;
 }
 
 /*--------------------LOGO----------------------------*/
@@ -119,7 +129,12 @@ body {
 .info-top {
   font-size: 1rem;
   padding-left: 2rem;
+  color: rgb(205, 199, 199);
 }
+
+/* .text {
+  border: 2px solid #f08804;
+} */
 
 .info-bottom {
   font-size: 1.4rem;
@@ -134,6 +149,11 @@ body {
   justify-content: center;
   align-items: center;
   gap: 1rem;
+  /* padding-left: 0rem; */
+  margin-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  width: 220px;
+  /* width: calc(350px - 0% - 0%); */
 }
 
 /******NAVBAR-RIGHT************/
@@ -143,6 +163,10 @@ body {
   justify-content: center;
   align-items: center;
   gap: 1rem;
+  padding-right: 1rem;
+  margin-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  width: 430px;
 }
 
 /******NAVBAR-HEADER************/
@@ -161,30 +185,67 @@ body {
   align-items: center;
   background-color: rgb(35, 47, 62);
   color: white;
-  margin: 0rem;
+  height: 4vh;
+  /* margin-top: 2rem; */
 }
 
 /*******SEARCH-SECTION***********/
-/* #all {
+
+select {
+  font-size: 1.5rem;
+  font-family: "amazon ember";
+  font-weight: 300;
+  width: 4rem;
+  padding-top: 1.5rem;
+  padding-bottom: 0.3rem;
+
+  /* padding: 1rem; */
+  /* appearance: none; */
+  /* border: 1px solid #cecece;
+  background: #ffffff
+    url("https://i2.wp.com/webdevpuneet.com/wp-content/uploads/2020/04/select-bg.png")
+    no-repeat top right; */
+  /* width: 205px; */
+  /* font-size: ; */
+  /* color: gray;
+  height: 25px; */
+  /* border-radius: ; */
+  /* padding-left: 5px;
+  -webkit-appearance: none;
+  -moz-appearance: none; */
+  /* appearance: none; */
+}
+
+.fa-magnifying-glass {
+  font-size: 1.7rem;
+  color: #3d352a;
+}
+
+#text {
+  width: 115rem;
   padding: 1rem;
 }
 
 .btn-search {
-  padding: 1rem;
-  font-size: 1.5rem;
+  padding: 1.1rem;
+  font-size: 1.3rem;
+  background-color: #febd69;
+  border: 1px solid #febd69;
+  border-radius: 3px;
 }
 
-#message {
+/* #message {
   width: 115rem;
   background-color: white;
   height: 4.1vh;
-} */
-/* 
+}  */
+
 .search-in {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* border-color: blue; */
+  /* width: 65%; */
+}
 
 .info-large-mobile {
   display: none;
@@ -228,16 +289,18 @@ body {
 }
 
 .item-number {
-  font-size: 1.9rem;
-  position: absolute;
-  right: 5rem;
-  top: 2.3rem;
+  font-size: 1.7rem;
+  position: relative;
+  left: 2.7rem;
+  bottom: 1rem;
   font-weight: 600;
+  color: #f08804;
 }
 
 .info-cart-bottom {
   font-size: 1.4rem;
   font-weight: 600;
+  padding-top: 1rem;
   /* padding-top: 1rem; */
 }
 
@@ -245,7 +308,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 1.3rem;
+  /* padding-bottom: 1.4rem; */
 }
 
 /******Header-2****/
@@ -254,7 +317,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  /* gap: 2rem; */
   font-size: 1.2rem;
 }
 
@@ -272,4 +335,23 @@ body {
 .nav-left-2 span {
   font-size: 1.4rem;
   font-weight: 600;
+}
+
+.nav-left-2 {
+  padding-left: 2rem;
+}
+
+.nav-right-2 {
+  padding-right: 2rem;
+}
+
+.box-4 .light-text {
+  font-weight: 400;
+  font-size: 1.3rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.fa-bars {
+  font-size: 1.8rem;
 }
