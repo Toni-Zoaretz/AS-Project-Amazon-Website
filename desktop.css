@@ -175,7 +175,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #131921;
+  background-color: #232f3e;
   color: white;
 }
 
@@ -183,7 +183,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(35, 47, 62);
+  background-color: #37475a;
   color: white;
   height: 4vh;
   /* margin-top: 2rem; */
