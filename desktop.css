@@ -454,6 +454,7 @@ select {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
+  padding-top: 1rem;
 }
 
 .dollar,
@@ -482,7 +483,7 @@ select {
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
-  border-bottom: 1px solid blue;
+  /* border-bottom: 1px solid blue; */
   height: 4vh;
   padding-right: 5rem;
   padding-left: 22rem;
@@ -521,12 +522,12 @@ select {
 
 .box-section-4-1 {
   width: 5rem;
-  height: 30vh;
+  height: 45vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1rem;
-  /* border: 1px solid #ae2e0e; */
+  /* border: 1px solid red; */
 }
 
 .small-imges {
@@ -535,14 +536,22 @@ select {
   /* flex-direction: column; */
   /* justify-content: center; */
   /* align-items: center; */
+  cursor: pointer;
+}
+
+.orange-box-1 {
+  border: 2px solid #f08804;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 0px 5px #f08804;
 }
 
 .small-imges:hover {
-  border: 2px solid #c83e16;
+  border: 2px solid #f08804;
 }
 
 .box-section-4-2 {
-  border: 1px solid rgb(6, 47, 25);
+  /* border: 1px solid rgb(6, 47, 25); */
   width: 55rem;
   height: 60vh;
   display: flex;
@@ -563,19 +572,22 @@ select {
 }
 
 .box-section-4-3 {
-  border: 1px solid rgb(18, 86, 86);
+  /* border: 1px solid rgb(18, 86, 86); */
   width: 55rem;
   height: 100vh;
 }
 
 h1 {
   font-size: 2.4rem;
-  font-weight: 500;
-  font-family: "Amazon ember";
+  font-weight: 400;
+  font-family: "Amazon Ember";
+  color: black;
+  padding-bottom: 0.5rem;
 }
 
 .visit .visit-text {
   font-size: 1.4rem;
+  padding-bottom: 0.5rem;
 }
 
 .stars-rating {
@@ -583,7 +595,7 @@ h1 {
   gap: 0.5rem;
   justify-content: flex-start;
   align-items: center;
-  padding-bottom: 1rem;
+  padding-bottom: 0.3rem;
   border-bottom: 0.5px solid rgba(128, 128, 128, 0.323);
 }
 
@@ -600,6 +612,8 @@ h1 {
 .colors1 {
   display: flex;
   justify-content: space-between;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .items-photos {
@@ -637,23 +651,41 @@ h1 {
 .small-option {
   font-size: 1.2rem;
   color: gray;
-  /* line-height: 1.5rem; */
   text-align: center;
 }
 
 .size-1 {
-  padding: 10px 20px;
+  /* width: 8rem; */
+  padding: 1.3rem 2.5rem;
+  /* padding-top: 2rem;
+  padding-right: 2rem; */
+  cursor: pointer;
+}
+
+.orange-box {
+  border: 1px solid #f08804;
+  background-color: #fcf8f7;
 }
 
 .size-span {
-  font-size: 1.2rem;
-  text-align: right;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.sizes {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
 }
 
 .brand {
   display: flex;
   gap: 2rem;
   border-bottom: 0.5px solid rgba(128, 128, 128, 0.323);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .brand-1,
@@ -665,26 +697,37 @@ h1 {
 
 .about-title {
   font-weight: 800;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
+}
+
+.about-title-div {
+  padding-top: 2rem;
+  /* padding-bottom: 1rem; */
 }
 
 .list {
   font-size: 1.4rem;
+  font-weight: 400;
   line-height: 2rem;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .box-section-4-4 {
   border: 1px solid rgba(128, 128, 128, 0.299);
   border-radius: 5px;
-  width: 22rem;
-  height: 70vh;
+  width: 25rem;
+  height: 79vh;
   padding: 1rem;
-  /* position: relative; */
 }
 
 .product-price {
   color: black;
+  padding-top: 0.5rem;
+}
+
+.fees-section {
+  padding-top: 1rem;
+  padding-bottom: 0.3rem;
 }
 
 .fees {
@@ -707,6 +750,14 @@ h1 {
 
 p {
   font-size: 1.4rem;
+}
+
+.delivery-info,
+.delivery-line,
+.qyt,
+.in-stock {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .delivery-bold-text {
@@ -769,25 +820,32 @@ p {
 }
 
 .secure {
-  text-align: center;
+  text-align: left;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .fa-lock {
   color: rgba(128, 128, 128, 0.741);
+  padding-right: 1rem;
 }
 
 .sold-info {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 1rem;
   border-bottom: 0.5px solid rgba(128, 128, 128, 0.323);
-  /* padding-bottom: 2; */
+  padding-bottom: 1rem;
 }
 
 .sold-small-info,
 .sold-big-info {
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 1.7rem;
+}
+
+.sold-small-info {
+  color: gray;
 }
 
 .peacj {
@@ -799,10 +857,13 @@ p {
 
 .details {
   font-size: 1.2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .more-details .fa-angle-down {
   color: gray;
+  padding-bottom: 0.5rem;
 }
 
 .checkmark {
@@ -814,13 +875,21 @@ p {
   font-size: 1.2rem;
   padding: 5px 65px;
   border: 1px solid gray;
+  background: #f0f1f4;
   border-radius: 2px;
   margin-top: 1rem;
   cursor: pointer;
 }
 
+.add-to-list {
+  /* text-align: left;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start; */
+}
+
 .box-section-4-5 {
-  border: 1px solid rgb(107, 7, 23);
+  /* border: 1px solid rgb(107, 7, 23); */
   width: 22rem;
   height: 10vh;
   display: flex;
@@ -852,21 +921,20 @@ p {
 }
 
 .box-section-4-6 {
-  border: 1px solid rgb(107, 7, 23);
-  width: 22rem;
+  border: 1px solid rgba(128, 128, 128, 0.299);
+  width: 25rem;
   height: 25vh;
-  /* padding: 0; */
-  /* position: relative; */
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-left: 1rem;
 }
 .content {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 0.5rem;6
+  gap: 0.5rem;
 }
 
 .img-mash {
@@ -917,56 +985,46 @@ p {
 .title-but-it-with {
   font-size: 2rem;
   color: #cc6600;
-  font-family: 'Amazon ember';
+  font-family: "Amazon ember";
   font-weight: 500;
-
 }
 
 .price-sale {
   font-size: 1.3rem;
-  
 }
-
 
 .btn-add-items {
-  background:none;
-  border:1px solid rgba(128, 128, 128, 0);
+  background: none;
+  border: 1px solid rgba(128, 128, 128, 0);
   border-radius: 20px;
-  padding-top:0.3rem;
+  padding-top: 0.3rem;
   padding-bottom: 0.3rem;
   font-size: 1.1rem;
-  font-family: 'amazon ember';
+  font-family: "amazon ember";
   background-color: #ffd814;
-
 }
 
-
 .total-price {
-  color:#ae2e0e;
+  color: #ae2e0e;
   font-size: 1.4rem;
 }
 
-.a1{
+.a1 {
   display: flex;
-
 }
 
-.a3{
+.a3 {
   display: flex;
   flex-direction: column;
 }
 
 .info-items-sale {
   font-size: 1.2rem;
-
 }
-
-
 
 .info-items-sale .fa-circle-info {
-  color:#0087b8;
+  color: #0087b8;
 }
-
 
 .
 
