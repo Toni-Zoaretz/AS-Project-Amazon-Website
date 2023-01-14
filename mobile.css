@@ -4,6 +4,13 @@
     display: none;
   }
 
+  .section-1 {
+    display: none;
+  }
+  .section-2 {
+    display: none;
+  }
+
   .header-3-mobile {
     display: flex;
     justify-content: space-between;
@@ -145,5 +152,14 @@
     height: 20px;
     padding-bottom: 2rem;
     padding-left: 2.1rem;
+  }
+
+  /* ***************section-2************ */
+
+  .section-2-mobile {
+    font-size: 5rem;
+    display: flex;
+    height: 7vh;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.253);
   }
 }
