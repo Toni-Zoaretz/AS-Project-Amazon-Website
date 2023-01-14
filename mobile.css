@@ -1,45 +1,66 @@
 @media (max-width: 500px) {
-  .header-1 {
-    display: none;
-  }
-
+  .header-1,
   .header-2 {
     display: none;
   }
+
   .header-3-mobile {
     display: flex;
-
+    justify-content: space-between;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 0.3rem;
+    /* padding-top: 1rem; */
+    /* padding-bottom: 1rem; */
+
+    color: white;
+    background-color: #232f3e;
+  }
+  .logo-mobile {
+    background: url("/Assets/img/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png")
+      no-repeat -10px -90px;
+    width: 80px;
+    height: 30px;
   }
 
   .box-1 {
-    border: 1px solid black;
+    border: 1px solid rgba(255, 255, 255, 0);
   }
+
+  /* .conatnier-search {
+    display: flex;
+    justify-content: center;
+    width: 50;
+  } */
 
   .serach-box {
-    width: 100%;
     display: flex;
-  }
+    justify-content: space-between;
 
-  #message-1 {
-    width: 100%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+    /* padding-lseft: 5rem; */
   }
 
   .delivery-israel {
-    height: 5vh;
+    /* height: 5vh; */
     display: flex;
+    padding: 1rem;
     justify-content: flex-start;
-    align-items: flex-end;
+    align-items: center;
+    background-color: #374659;
+    gap: 0.3rem;
   }
 
   .dlivery-details-mobile {
-    font-size: 1.2rem;
-    font-weight: 500;
+    font-size: 1.3rem;
+    font-weight: 400;
   }
 
-  .btn-search-1 {
+  .btn-search-mobile {
     padding: 1rem;
+    border-radius: 8px;
+    background-color: #fcbb6a;
   }
 
   .fa-solid {
@@ -58,16 +79,20 @@
   }
 
   .item-to-cart {
-    font-size: 2rem;
+    font-size: 1.6rem;
+    font-weight: 800;
     position: relative;
-    left: 2.5rem;
-    bottom: 0.5rem;
+    left: 2.6rem;
+    bottom: 0.7rem;
+    color: #ff9900;
   }
 
   .logos {
     display: flex;
     justify-content: center;
     align-content: center;
+    margin-left: 1rem;
+    margin-top: 1rem;
     gap: 1rem;
   }
 
@@ -79,28 +104,38 @@
   .logos-2 {
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-content: flex-start;
     gap: 1rem;
     position: relative;
+    margin-right: 1rem;
   }
 
   .sign-in {
-    font-size: 1.2rem;
-    font-weight: 800;
+    font-size: 1.3rem;
+    font-weight: 400;
   }
 
   .fa-chevron-right {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 
   .fa-user {
-    font-size: 2rem;
+    font-size: 2.5rem;
+    padding-left: 0.4rem;
+  }
+
+  #text-mobile {
+    font-size: 1.5rem;
+    font-family: "amazon ember";
+    width: 50rem;
+    border-radius: 7px;
   }
 
   .contanier {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 0.2rem;
   }
 
   .location-icon {
