@@ -716,7 +716,7 @@ h1 {
   border: 1px solid rgba(128, 128, 128, 0.299);
   border-radius: 5px;
   width: 25rem;
-  height: 79vh;
+  height: 73vh;
   padding: 1rem;
 }
 
@@ -874,18 +874,12 @@ p {
   font-family: "amazon ember";
   font-size: 1.2rem;
   padding: 5px 65px;
-  border: 1px solid gray;
+  box-shadow: 0px 0px 5px gray;
+  border: 1px solid rgba(128, 128, 128, 0);
   background: #f0f1f4;
   border-radius: 2px;
   margin-top: 1rem;
   cursor: pointer;
-}
-
-.add-to-list {
-  /* text-align: left;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start; */
 }
 
 .box-section-4-5 {
