@@ -509,3 +509,124 @@ select {
 .nav-left-section-3 .fa-chevron-right {
   font-size: 0.6rem;
 }
+
+/* ***************section-4*****************  */
+.section-4 {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.box-section-4-1 {
+  border: 1px solid rgb(216, 11, 216);
+  width: 5rem;
+  height: 30vh;
+}
+.box-section-4-2 {
+  border: 1px solid rgb(6, 47, 25);
+  width: 55rem;
+  height: 60vh;
+}
+.box-section-4-3 {
+  border: 1px solid rgb(18, 86, 86);
+  width: 55rem;
+  height: 100vh;
+}
+.box-section-4-4 {
+  border: 1px solid rgb(107, 7, 23);
+  width: 22rem;
+  height: 70vh;
+  position: relative;
+
+  /* margin-right: 20rem; */
+}
+
+.small-imges {
+  border: 1px solid pink;
+  height: 4vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ***************section-5******************/
+
+.section-5 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  position: relative;
+  bottom: 27rem;
+  right: 26rem;
+
+  gap: 1rem;
+}
+.box-section-5-1 {
+  border: 1px solid rgb(216, 11, 216);
+  width: 22rem;
+  height: 10vh;
+}
+.box-section-5-2 {
+  border: 1px solid rgb(6, 47, 25);
+  width: 22rem;
+  height: 25vh;
+}
+/* 
+.box-section-5-3 {
+  border: 1px solid rgb(18, 86, 86);
+  width: 55rem;
+  height: 60vh;
+} */
+/* .box-section-5-4 {
+  border: 1px solid rgb(107, 7, 23);
+  width: 22rem;
+  height: 70vh;
+}
+
+.box-section-5-5 {
+  border: 1px solid rgb(107, 7, 23);
+  width: 22rem;
+  height: 70vh;
+}  */
+
+/* ***************section-6***** */
+
+.section-6 {
+  align-items: flex-start;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  bottom: 35rem;
+  /* right: 10rem; */
+  height: 80px;
+  width: 93%;
+}
+
+.box-section-6-1 {
+  border-bottom: 2px solid rgb(6, 47, 25);
+  width: 60%;
+}
+
+/* ***************section-7***** */
+
+.section-7 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  position: relative;
+  bottom: 27rem;
+  right: 26rem;
+
+  gap: 1rem;
+}
+
+.box-section-7-1 {
+  border: 1px solid rgb(216, 11, 216);
+  width: 22rem;
+  height: 10vh;
+}

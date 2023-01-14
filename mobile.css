@@ -10,6 +10,9 @@
   .section-2 {
     display: none;
   }
+  .section-3 {
+    display: none;
+  }
 
   .header-3-mobile {
     display: flex;
