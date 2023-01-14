@@ -520,20 +520,160 @@ select {
 }
 
 .box-section-4-1 {
-  border: 1px solid rgb(216, 11, 216);
   width: 5rem;
   height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  /* border: 1px solid #ae2e0e; */
 }
+
+.small-imges {
+  border: 1px solid #333333;
+  border-radius: 4px;
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.small-imges:hover {
+  border: 2px solid #c83e16;
+}
+
 .box-section-4-2 {
   border: 1px solid rgb(6, 47, 25);
   width: 55rem;
   height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
+.box-section-4-2 img {
+  width: 50%;
+  /* margin-left: 5rem; */
+}
+
+.roll {
+  font-size: 1.5rem;
+  color: gray;
+  /* padding-top: 5rem; */
+}
+
 .box-section-4-3 {
   border: 1px solid rgb(18, 86, 86);
   width: 55rem;
   height: 100vh;
 }
+
+h1 {
+  font-size: 2.4rem;
+  font-weight: 500;
+  font-family: "Amazon ember";
+}
+
+.visit .visit-text {
+  font-size: 1.4rem;
+}
+
+.stars-rating {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 1rem;
+  border-bottom: 0.5px solid rgba(128, 128, 128, 0.323);
+}
+
+.product-text {
+  border-bottom: 0.5px solid rgba(128, 128, 128, 0.323);
+}
+
+.strats-photo {
+  background: url("/Assets/img/dark_strats.png") no-repeat -2px -42px;
+  width: 80px;
+  height: 15px;
+}
+
+.colors1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.items-photos {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 2rem;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.photo-1 {
+  border: 1px solid gray;
+  border-radius: 3px;
+}
+
+.photo-colored-border {
+  border: 1px solid #f08804;
+  border-radius: 3px;
+}
+
+.full-prices {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2.5rem;
+  border-bottom: 0.5px solid rgba(128, 128, 128, 0.323);
+  padding-bottom: 2rem;
+}
+
+.price {
+  font-size: 1.5rem;
+}
+
+.small-option {
+  font-size: 1.2rem;
+  color: gray;
+  /* line-height: 1.5rem; */
+  text-align: center;
+}
+
+.size-1 {
+  padding: 10px 20px;
+}
+
+.size-span {
+  font-size: 1.2rem;
+  text-align: right;
+}
+
+.brand {
+  display: flex;
+  gap: 2rem;
+  border-bottom: 0.5px solid rgba(128, 128, 128, 0.323);
+}
+
+.brand-1,
+.brand-2 {
+  font-size: 1.3rem;
+  font-weight: 800;
+  line-height: 2.5rem;
+}
+
+.about-title {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.list {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  padding: 2rem;
+}
+
 .box-section-4-4 {
   border: 1px solid rgba(128, 128, 128, 0.299);
   border-radius: 5px;
@@ -683,32 +823,67 @@ p {
   border: 1px solid rgb(107, 7, 23);
   width: 22rem;
   height: 10vh;
-  position: relative;
-
-  /* margin-right: 20rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.sell {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.sell-title {
+  font-family: "amazon ember";
+  font-size: 1.2rem;
+}
+
+.sell-btn {
+  font-family: "amazon ember";
+  font-size: 1.3rem;
+  padding: 4px 5px;
+  background: none;
+  border: 1px solid gray;
+  border-radius: 5px;
+  box-shadow: 0px 3px rgba(214, 207, 207, 0.359);
+}
+
 .box-section-4-6 {
   border: 1px solid rgb(107, 7, 23);
   width: 22rem;
   height: 25vh;
-  padding: 0;
-  position: relative;
-
-  /* margin-right: 20rem; */
-}
-/* 
-.box-section-4-7 {
-  border: 1px solid rgb(20, 149, 37);
-  width: 50rem;
+  /* padding: 0; */
+  /* position: relative; */
   display: flex;
-  width: 120rem;
-  height: 10vh;
+  flex-direction: column;
+  justify-content: center;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0.5rem;6
 }
 
-.box-section-4 .info-text {
+.img-mash {
   display: flex;
-  gap: 1rem;
-} */
+  justify-content: center;
+  align-items: center;
+}
+
+.content-text {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+
+.mashroon-price {
+  display: flex;
+  justify-content: flex-start;
+}
 
 .photo {
   display: flex;
@@ -720,15 +895,6 @@ p {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-}
-
-.small-imges {
-  border: 1px solid pink;
-  height: 4vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 /* ***************section-5******************/
