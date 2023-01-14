@@ -118,6 +118,7 @@ body {
 .hamburger-logo {
   display: none;
 }
+
 /********DELIVERY $ ICON ***********/
 .delivery {
   background: url("/Assets/img/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png")
@@ -175,7 +176,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #232f3e;
+  background-color: #131921;
   color: white;
 }
 
@@ -183,10 +184,9 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #37475a;
+  background-color: #232f3e;
   color: white;
   height: 4vh;
-  /* margin-top: 2rem; */
 }
 
 /*******SEARCH-SECTION***********/
@@ -234,17 +234,10 @@ select {
   border-radius: 3px;
 }
 
-/* #message {
-  width: 115rem;
-  background-color: white;
-  height: 4.1vh;
-}  */
-
 .search-in {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* width: 65%; */
 }
 
 .info-large-mobile {
@@ -301,14 +294,12 @@ select {
   font-size: 1.4rem;
   font-weight: 600;
   padding-top: 1rem;
-  /* padding-top: 1rem; */
 }
 
 .cart {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* padding-bottom: 1.4rem; */
 }
 
 /******Header-2****/
@@ -319,6 +310,7 @@ select {
   align-items: center;
   /* gap: 2rem; */
   font-size: 1.2rem;
+  padding-left: 1rem;
 }
 
 /******NAVBAR-RIGHT************/
@@ -330,6 +322,7 @@ select {
   gap: 1rem;
   font-size: 1.4rem;
   font-weight: 600;
+  padding-right: 2rem;
 }
 
 .nav-left-2 span {
@@ -337,13 +330,13 @@ select {
   font-weight: 600;
 }
 
-.nav-left-2 {
-  padding-left: 2rem;
-}
+/* .nav-left-2 {
+  padding-left: 1rem;
+} */
 
-.nav-right-2 {
+/* .nav-right-2 {
   padding-right: 2rem;
-}
+} */
 
 .box-4 .light-text {
   font-weight: 400;
@@ -354,4 +347,126 @@ select {
 
 .fa-bars {
   font-size: 1.8rem;
+}
+/* 
+****************section-1************** */
+
+.section-1 {
+  display: flex;
+  gap: 0.8rem;
+  background-color: #f7f8f8;
+  border-bottom: 1.5px solid #cccccc;
+}
+
+.box-section-1 {
+  border: 1px solid rgba(255, 192, 203, 0);
+  padding: 0.8rem;
+}
+
+.box-section-1 a {
+  font-family: "amazon ember";
+  font-size: 1.2rem;
+  text-decoration: none;
+  /* text-decoration: underline; */
+  color: #333333;
+  /* text-underline-offset: 3px; */
+}
+
+/* .box-section-1:hover {
+  border-bottom: 1px solid #ff9900;
+  cursor: pointer;
+} */
+
+.span-section-1:hover {
+  color: #ff9900;
+  text-underline-offset: 9px;
+  text-decoration: underline solid 2px;
+  transition: all 0.1s ease;
+}
+
+.box-section-1 .toys {
+  font-weight: 800;
+  color: #333333;
+}
+
+.box-section-1 .toys:hover {
+  color: #ff9900;
+  text-underline-offset: 9px;
+  text-decoration: underline solid 2px;
+  transition: all 0.2s ease;
+}
+
+/* 
+*****************section-2***************** */
+.section-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 11rem;
+  height: 6vh;
+  border: 1px solid #cccccc;
+  background-color: #f7f8f8;
+}
+
+.small-photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  right: 8rem;
+}
+
+.left-section-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.middle-text {
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  right: 3rem;
+}
+
+.stars-numbers img {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 0.5rem;
+}
+
+.prime {
+  background: url("/Assets/img/prime_photos.png") no-repeat -138px -73px;
+  width: 42px;
+  height: 12px;
+}
+
+.price-section-2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.dollar,
+.big-amount,
+.small-amount {
+  color: #ae2e0e;
+}
+
+.dollar {
+  font-size: 1.2rem;
+  padding-top: 0.5rem;
+}
+
+.big-amount {
+  font-size: 2.5rem;
+}
+
+.small-amount {
+  font-size: 1.2rem;
+  padding-top: 0.4rem;
 }
