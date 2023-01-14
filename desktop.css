@@ -535,12 +535,191 @@ select {
   height: 100vh;
 }
 .box-section-4-4 {
-  border: 1px solid rgb(107, 7, 23);
+  border: 1px solid rgba(128, 128, 128, 0.299);
+  border-radius: 5px;
   width: 22rem;
   height: 70vh;
+  padding: 1rem;
+  /* position: relative; */
+}
+
+.product-price {
+  color: black;
+}
+
+.fees {
+  font-size: 1.4rem;
+  color: rgb(79, 78, 78);
+}
+
+.fees-btn {
+  font-family: "Amazon Ember";
+  background: none;
+  border: none;
+  color: #0087b8;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.fees-btn:hover {
+  color: #c83e16;
+}
+
+p {
+  font-size: 1.4rem;
+}
+
+.delivery-bold-text {
+  font-weight: 800;
+}
+
+.delivery-time {
+  color: green;
+}
+
+.small-delivery {
+  font-size: 1.2rem;
+}
+
+.in-stock-title {
+  font-size: 1.7rem;
+  color: green;
+}
+.qty-btn {
+  font-family: "amazon ember";
+  font-size: 1.2rem;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  box-shadow: 0px 2px rgba(186, 181, 181, 0.235);
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.add-to-cart-btn,
+.buy-now-btn {
+  font-family: "amazon ember";
+  font-weight: 400;
+  color: #131921;
+  font-size: 1.3rem;
+  border: 1px solid rgba(0, 0, 0, 0);
+  padding: 6px 20px;
+  border-radius: 15px;
+  background: none;
+  cursor: pointer;
+}
+
+.add-to-cart-btn {
+  background-color: #ffd814;
+}
+
+.buy-now-btn {
+  background-color: #ffa41c;
+}
+
+.add-to-cart-btn:hover,
+.buy-now-btn:hover {
+  background-color: pink;
+}
+
+.secure {
+  text-align: center;
+}
+
+.fa-lock {
+  color: rgba(128, 128, 128, 0.741);
+}
+
+.sold-info {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  border-bottom: 0.5px solid rgba(128, 128, 128, 0.323);
+  /* padding-bottom: 2; */
+}
+
+.sold-small-info,
+.sold-big-info {
+  font-size: 1rem;
+  line-height: 1.7rem;
+}
+
+.peacj {
+  font-size: 1rem;
+}
+.peacj:hover {
+  text-decoration: underline;
+}
+
+.details {
+  font-size: 1.2rem;
+}
+
+.more-details .fa-angle-down {
+  color: gray;
+}
+
+.checkmark {
+  font-size: 1.4rem;
+}
+
+.add-to-list-item {
+  font-family: "amazon ember";
+  font-size: 1.2rem;
+  padding: 5px 65px;
+  border: 1px solid gray;
+  border-radius: 2px;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.box-section-4-5 {
+  border: 1px solid rgb(107, 7, 23);
+  width: 22rem;
+  height: 10vh;
   position: relative;
 
   /* margin-right: 20rem; */
+}
+.box-section-4-6 {
+  border: 1px solid rgb(107, 7, 23);
+  width: 22rem;
+  height: 25vh;
+  padding: 0;
+  position: relative;
+
+  /* margin-right: 20rem; */
+}
+/* 
+.box-section-4-7 {
+  border: 1px solid rgb(20, 149, 37);
+  width: 50rem;
+  display: flex;
+  width: 120rem;
+  height: 10vh;
+}
+
+.box-section-4 .info-text {
+  display: flex;
+  gap: 1rem;
+} */
+
+.photo {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.2rem;
+}
+
+.side-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .small-imges {
@@ -556,43 +735,18 @@ select {
 
 .section-5 {
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  flex-direction: column;
-  position: relative;
-  bottom: 27rem;
-  right: 26rem;
-
-  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  /* gap: 1rem; */
+  /* width: 100%; */
 }
+
 .box-section-5-1 {
   border: 1px solid rgb(216, 11, 216);
-  width: 22rem;
-  height: 10vh;
+  width: 65%;
+  height: 30vh;
+  margin-bottom: 2rem;
 }
-.box-section-5-2 {
-  border: 1px solid rgb(6, 47, 25);
-  width: 22rem;
-  height: 25vh;
-}
-/* 
-.box-section-5-3 {
-  border: 1px solid rgb(18, 86, 86);
-  width: 55rem;
-  height: 60vh;
-} */
-/* .box-section-5-4 {
-  border: 1px solid rgb(107, 7, 23);
-  width: 22rem;
-  height: 70vh;
-}
-
-.box-section-5-5 {
-  border: 1px solid rgb(107, 7, 23);
-  width: 22rem;
-  height: 70vh;
-}  */
-
 /* ***************section-6***** */
 
 .section-6 {
@@ -613,7 +767,7 @@ select {
 
 /* ***************section-7***** */
 
-.section-7 {
+/* .section-7 {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
@@ -629,4 +783,4 @@ select {
   border: 1px solid rgb(216, 11, 216);
   width: 22rem;
   height: 10vh;
-}
+} */
