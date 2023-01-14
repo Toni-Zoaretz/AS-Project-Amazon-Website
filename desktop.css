@@ -970,10 +970,13 @@ p {
 }
 
 .box-section-5-1 {
-  border: 1px solid rgb(216, 11, 216);
-  width: 65%;
-  height: 30vh;
-  margin-bottom: 2rem;
+  border-top: 0.5px solid rgba(128, 128, 128, 0.323);
+  width: 55%;
+  height: 29vh;
+  position: relative;
+  right: 10rem;
+  bottom: 10rem;
+  padding-top: 1.5rem;
 }
 
 .title-but-it-with {
@@ -981,6 +984,8 @@ p {
   color: #cc6600;
   font-family: "Amazon ember";
   font-weight: 500;
+  /* padding-top: 5rem; */
+  /* padding-bottom: 5rem; */
 }
 
 .price-sale {
