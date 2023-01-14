@@ -765,7 +765,7 @@ p {
 
 .add-to-cart-btn:hover,
 .buy-now-btn:hover {
-  background-color: pink;
+  background-color: rgb(248, 192, 51);
 }
 
 .secure {
@@ -913,6 +913,66 @@ p {
   height: 30vh;
   margin-bottom: 2rem;
 }
+
+.title-but-it-with {
+  font-size: 2rem;
+  color: #cc6600;
+  font-family: 'Amazon ember';
+  font-weight: 500;
+
+}
+
+.price-sale {
+  font-size: 1.3rem;
+  
+}
+
+
+.btn-add-items {
+  background:none;
+  border:1px solid rgba(128, 128, 128, 0);
+  border-radius: 20px;
+  padding-top:0.3rem;
+  padding-bottom: 0.3rem;
+  font-size: 1.1rem;
+  font-family: 'amazon ember';
+  background-color: #ffd814;
+
+}
+
+
+.total-price {
+  color:#ae2e0e;
+  font-size: 1.4rem;
+}
+
+.a1{
+  display: flex;
+
+}
+
+.a3{
+  display: flex;
+  flex-direction: column;
+}
+
+.info-items-sale {
+  font-size: 1.2rem;
+
+}
+
+
+
+.info-items-sale .fa-circle-info {
+  color:#0087b8;
+}
+
+
+.
+
+
+
+
 /* ***************section-6***** */
 
 .section-6 {
