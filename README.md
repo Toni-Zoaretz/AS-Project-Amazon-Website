@@ -1,5 +1,3 @@
-# Amazon-Website
-
 # 🚀 About Amazon Mockup Website
 
 I was given a task @AppleSeeds Bootcamp to to build a responsive product page from Amazon website.<br>
