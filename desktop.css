@@ -77,7 +77,6 @@ html {
 
 body {
   font-family: "Amazon Ember", Arial, sans-serif;
-  /* background-color: rgba(126, 129, 129, 0.229); */
 }
 
 .box-4 {
@@ -111,6 +110,13 @@ body {
 .section-2-mobile {
   display: none;
 }
+
+.full-hero-sections-mobile {
+  display: none;
+}
+
+
+
 
 .logo {
   background: url("Assets/img/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png")
@@ -154,11 +160,9 @@ body {
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  /* padding-left: 0rem; */
   margin-top: 0.5rem;
   padding-bottom: 0.5rem;
   width: 220px;
-  /* width: calc(350px - 0% - 0%); */
 }
 
 /******NAVBAR-RIGHT************/
@@ -202,22 +206,6 @@ select {
   width: 4rem;
   padding-top: 1.5rem;
   padding-bottom: 0.3rem;
-
-  /* padding: 1rem; */
-  /* appearance: none; */
-  /* border: 1px solid #cecece;
-  background: #ffffff
-    url("https://i2.wp.com/webdevpuneet.com/wp-content/uploads/2020/04/select-bg.png")
-    no-repeat top right; */
-  /* width: 205px; */
-  /* font-size: ; */
-  /* color: gray;
-  height: 25px; */
-  /* border-radius: ; */
-  /* padding-left: 5px;
-  -webkit-appearance: none;
-  -moz-appearance: none; */
-  /* appearance: none; */
 }
 
 .fa-magnifying-glass {
@@ -312,7 +300,6 @@ select {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* gap: 2rem; */
   font-size: 1.2rem;
   padding-left: 1rem;
 }
@@ -334,26 +321,7 @@ select {
   font-weight: 600;
 }
 
-/* .nav-left-2 {
-  padding-left: 1rem;
-} */
-
-/* .nav-right-2 {
-  padding-right: 2rem;
-} */
-
-.box-4 .light-text {
-  font-weight: 400;
-  font-size: 1.3rem;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-
-.fa-bars {
-  font-size: 1.8rem;
-}
-/* 
-****************section-1************** */
+/* ****************section-1************** */
 
 .section-1 {
   display: flex;
@@ -371,15 +339,8 @@ select {
   font-family: "amazon ember";
   font-size: 1.2rem;
   text-decoration: none;
-  /* text-decoration: underline; */
   color: #333333;
-  /* text-underline-offset: 3px; */
 }
-
-/* .box-section-1:hover {
-  border-bottom: 1px solid #ff9900;
-  cursor: pointer;
-} */
 
 .span-section-1:hover {
   color: #ff9900;
@@ -483,7 +444,6 @@ select {
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
-  /* border-bottom: 1px solid blue; */
   height: 4vh;
   padding-right: 5rem;
   padding-left: 22rem;
@@ -527,15 +487,11 @@ select {
   flex-direction: column;
   align-items: center;
   gap: 1rem;
-  /* border: 1px solid red; */
 }
 
 .small-imges {
   border: 1px solid #333333;
   border-radius: 4px;
-  /* flex-direction: column; */
-  /* justify-content: center; */
-  /* align-items: center; */
   cursor: pointer;
 }
 
@@ -551,7 +507,6 @@ select {
 }
 
 .box-section-4-2 {
-  /* border: 1px solid rgb(6, 47, 25); */
   width: 55rem;
   height: 60vh;
   display: flex;
@@ -562,17 +517,14 @@ select {
 
 .box-section-4-2 img {
   width: 50%;
-  /* margin-left: 5rem; */
 }
 
 .roll {
   font-size: 1.5rem;
   color: gray;
-  /* padding-top: 5rem; */
 }
 
 .box-section-4-3 {
-  /* border: 1px solid rgb(18, 86, 86); */
   width: 55rem;
   height: 100vh;
 }
@@ -655,10 +607,7 @@ h1 {
 }
 
 .size-1 {
-  /* width: 8rem; */
   padding: 1.3rem 2.5rem;
-  /* padding-top: 2rem;
-  padding-right: 2rem; */
   cursor: pointer;
 }
 
@@ -677,7 +626,6 @@ h1 {
 .sizes {
   display: flex;
   align-items: center;
-  /* justify-content: center; */
 }
 
 .brand {
@@ -702,7 +650,6 @@ h1 {
 
 .about-title-div {
   padding-top: 2rem;
-  /* padding-bottom: 1rem; */
 }
 
 .list {
@@ -883,7 +830,6 @@ p {
 }
 
 .box-section-4-5 {
-  /* border: 1px solid rgb(107, 7, 23); */
   width: 22rem;
   height: 10vh;
   display: flex;
@@ -965,8 +911,6 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* gap: 1rem; */
-  /* width: 100%; */
 }
 
 .box-section-5-1 {
@@ -984,8 +928,6 @@ p {
   color: #cc6600;
   font-family: "Amazon ember";
   font-weight: 500;
-  /* padding-top: 5rem; */
-  /* padding-bottom: 5rem; */
 }
 
 .price-sale {
@@ -1019,7 +961,6 @@ p {
 
 .info-items-sale {
   font-size: 1.3rem;
-  /* padding-top: 5rem */
 }
 
 .info-items-sale .fa-circle-info {
@@ -1035,7 +976,6 @@ p {
 
 .section-6 {
   display: flex;
-  /* border: 1px solid blue; */
   margin-top: 10rem;
   margin-bottom: 5rem;
   width: 100%;
@@ -1047,7 +987,6 @@ p {
 
 .box-section-6-1 {
   border-top: 0.5px solid rgba(128, 128, 128, 0.323);
-  /* border:1px solid pink; */
   height:5vh;
   display: flex;
   flex-direction: column;
@@ -1060,11 +999,9 @@ p {
 .box-section-6-2 {
 height: 30vh;
 width: 100%;
-/* border:1px solid rgb(248, 192, 51); */
 }
 
 .galery {
-  /* border: 1px solid black; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1082,7 +1019,6 @@ width: 100%;
   justify-content: center;
   align-items: flex-start;
   width: 18rem;
-  /* gap: 2rem; */
   cursor: pointer;
 }
 
@@ -1099,3 +1035,6 @@ width: 100%;
 .btn-arrow .fa-chevron-right {
   font-size: 1.5rem;
 }
+
+
+

@@ -4,19 +4,17 @@
     display: none;
   }
 
-  .section-1 {
-    display: none;
-  }
-  .section-2 {
-    display: none;
-  }
-  .section-3 {
-    display: none;
-  }
+  .section-1,
+  .section-2,
+  .section-3,
   .section-4,
   .section-5,
   .section-6 {
     display: none;
+  }
+
+  .full-hero-sections-mobile {
+    display: block;
   }
 
   .header-3-mobile {
@@ -24,12 +22,10 @@
     justify-content: space-between;
     flex-direction: column;
     gap: 0.3rem;
-    /* padding-top: 1rem; */
-    /* padding-bottom: 1rem; */
-
     color: white;
     background-color: #232f3e;
   }
+
   .logo-mobile {
     background: url("/Assets/img/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png")
       no-repeat -10px -90px;
@@ -41,24 +37,14 @@
     border: 1px solid rgba(255, 255, 255, 0);
   }
 
-  /* .conatnier-search {
-    display: flex;
-    justify-content: center;
-    width: 50;
-  } */
-
   .serach-box {
     display: flex;
     justify-content: space-between;
-
     margin-left: 1rem;
     margin-right: 1rem;
-
-    /* padding-lseft: 5rem; */
   }
 
   .delivery-israel {
-    /* height: 5vh; */
     display: flex;
     padding: 1rem;
     justify-content: flex-start;
@@ -169,5 +155,203 @@
     display: flex;
     height: 7vh;
     border-bottom: 1px solid rgba(128, 128, 128, 0.253);
+  }
+
+  /* ************home-section******** */
+
+  .mobile-home-section-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.3rem;
+    color: #007185;
+  }
+
+  .mobile-home-section-2 {
+    font-size: 1.3rem;
+    padding: 1rem;
+    color: rgb(115, 113, 113);
+  }
+
+  .mobile-home-section-3,
+  .mobile-home-section-4 {
+    border-bottom: 5px solid rgba(118, 118, 118, 0.214);
+  }
+
+  .mobile-home-section-5 {
+    display: flex;
+    align-items: flex-start;
+    padding-left: 2rem;
+  }
+
+  .dolar-mobile,
+  .amount-99 {
+    font-size: 1.5em;
+    padding-top: 0.7rem;
+  }
+
+  .amount-21 {
+    font-size: 3.5rem;
+  }
+
+  .mobile-home-section-6 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    font-size: 1.4rem;
+    display: flex;
+    gap: 0.4em;
+    flex-direction: column;
+  }
+
+  .icon-location-mobile {
+    position: relative;
+    top: 0.4rem;
+  }
+
+  .delivery-mobile-text {
+    color: #007185;
+  }
+
+  .mobile-home-section-7 {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    padding-left: 2rem;
+    justify-content: flex-start;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .in-stock-mobile {
+    font-size: 1.8rem;
+    color: green;
+  }
+
+  .qty-btn-mobile {
+    padding: 5px 15px;
+    width: 10rem;
+    text-align: left;
+    font-family: "amazon ember";
+    background: rgba(237, 231, 231, 0.206);
+    box-shadow: 0px 0px 5px gray;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 5px;
+  }
+
+  .qty-btn-mobile .fa-chevron-down {
+    font-size: 1.5rem;
+    padding-left: 1rem;
+  }
+
+  .mobile-home-section-8 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .btn-add-to-cart,
+  .btn-buy-now {
+    font-size: 1.6rem;
+    font-family: "Amazon ember";
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border: 1px solid rgba(255, 192, 203, 0);
+    border-radius: 2rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+
+  .btn-add-to-cart {
+    background-color: #ffd814;
+  }
+
+  .btn-buy-now {
+    background-color: #ffa41c;
+  }
+
+  .mobile-secure {
+    margin-left: 2rem;
+  }
+
+  .mobile-section-11 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+  }
+
+  .mobile-section-12 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 5px solid rgba(118, 118, 118, 0.214);
+  }
+
+  .mobile-section-13 {
+    padding-left: 2rem;
+    padding-top: 2rem;
+    border-bottom: 5px solid rgba(118, 118, 118, 0.214);
+  }
+
+  .text-gift {
+    font-size: 1.5rem;
+  }
+
+  .details-mobile {
+    font-size: 1.8rem;
+    font-weight: 800;
+  }
+
+  .details-mobile-brand-1 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: grey;
+  }
+
+  .details-mobile-brand-2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+
+  .brand-2-mobile {
+    padding-left: 5rem;
+  }
+
+  .mobile-section-14 {
+    padding-bottom: 14rem;
+    border-bottom: 5px solid rgba(118, 118, 118, 0.214);
+  }
+
+  .mobile-section-15 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.5rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 5px solid rgba(118, 118, 118, 0.214);
+  }
+
+  .mobile-section-16 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .product-title {
+    padding-top: 5rem;
+    padding-left: 2rem;
+  }
+
+  .mobile-section-17 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding-bottom: 2rem;
   }
 }

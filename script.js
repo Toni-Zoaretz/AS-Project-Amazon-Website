@@ -1,7 +1,7 @@
-let item = document.querySelector(".item-number").textContent;
+let item = Number(document.querySelector(".item-number").textContent);
 
 document
   .querySelector(".add-to-cart-btn")
   .addEventListener("click", function () {
-    item = 2;
+    item = item + 1;
   });
