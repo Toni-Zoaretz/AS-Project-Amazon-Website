@@ -13,6 +13,11 @@
   .section-3 {
     display: none;
   }
+  .section-4,
+  .section-5,
+  .section-6 {
+    display: none;
+  }
 
   .header-3-mobile {
     display: flex;
