@@ -1,6 +1,6 @@
 # 🚀 About Amazon Mockup Website
 
-I was given a task @AppleSeeds Bootcamp to to build a responsive product page from Amazon website.<br>
+I was given a task @AppleSeeds Bootcamp to build a responsive product page from Amazon website.<br>
 The product page was copied using `HTML`,`CSS`,`Transition`,`Flex` and a little bit `JavaScript`.
 
 ### Original site link:
